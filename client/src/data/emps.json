@@ -1,0 +1,101 @@
+[
+  {
+    "name": "Ofek Barzilay",
+    "email": "ofek.barzilay@example.com",
+    "phone": "0500000000",
+    "role": "employee",
+    "password": "aaa@aaa.com",
+    "photoData": "/employee-photos/Ofek_Barzilay.jpeg"
+  },
+  {
+    "name": "Bella Fedorova",
+    "email": "bella.fedorova@example.com",
+    "phone": "0500000001",
+    "role": "employee",
+    "password": "aaa@aaa.com",
+    "photoData": "/employee-photos/Bella_Fedorova.jpeg"
+  },
+  {
+    "name": "Dina Efroni",
+    "email": "dina.efroni@example.com",
+    "phone": "0500000002",
+    "role": "employee",
+    "password": "aaa@aaa.com",
+    "photoData": "/employee-photos/Dina_Eforni.jpeg"
+  },
+  {
+    "name": "Zidan Alalo",
+    "email": "zidan.alalo@example.com",
+    "phone": "0500000003",
+    "role": "employee",
+    "password": "aaa@aaa.com",
+    "photoData": "/employee-photos/Zidan_Alalo.jpeg"
+  },
+  {
+    "name": "Yuval Bakish",
+    "email": "yuval.bakish@example.com",
+    "phone": "0500000004",
+    "role": "employee",
+    "password": "aaa@aaa.com",
+    "photoData": "/employee-photos/Yuval_Bakish.jpeg"
+  },
+  {
+    "name": "Mohammad Mashni",
+    "email": "mohammad.mashni@example.com",
+    "phone": "0500000005",
+    "role": "employee",
+    "password": "aaa@aaa.com"
+  },
+  {
+    "name": "Shoval Shitrit",
+    "email": "shoval.shitrit@example.com",
+    "phone": "0500000006",
+    "role": "employee",
+    "password": "aaa@aaa.com",
+    "photoData": "/employee-photos/Shoval_Shitrit.jpeg"
+  },
+  {
+    "name": "Roy Hadadi",
+    "email": "Roy.Hadadi@example.com",
+    "phone": "0500000007",
+    "role": "employee",
+    "password": "aaa@aaa.com",
+    "photoData": "/employee-photos/Roi_Hadadi.jpeg"
+  },
+    {
+    "name": "Niv Albilia",
+    "email": "Niv.Albilia@example.com",
+    "phone": "0500000008",
+    "role": "employee",
+    "password": "aaa@aaa.com"
+  },
+  {
+    "name": "Shenhav Levi",
+    "email": "shenhav.levi@example.com",
+    "phone": "0500000009",
+    "role": "employee",
+    "password": "aaa@aaa.com",
+    "photoData": "/employee-photos/Shenhav_Levi.jpeg"
+  },
+  {
+    "name": "Nicole Suponitzky",
+    "email": "Nicole.Suponitzky@example.com",
+    "phone": "0500000010",
+    "role": "employee",
+    "password": "aaa@aaa.com"
+  },
+  {
+    "name": "Sagi Katav",
+    "email": "Sagi.Katav@example.com",
+    "phone": "0500000011",
+    "role": "employee",
+    "password": "aaa@aaa.com"
+  },
+    {
+    "name": "Eden Hilu",
+    "email": "Eden.Hilu@example.com",
+    "phone": "0500000012",
+    "role": "employee",
+    "password": "aaa@aaa.com"
+  }
+]

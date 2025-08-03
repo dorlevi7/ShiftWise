@@ -1,0 +1,237 @@
+.navbar-placeholder {
+    height: 30px;
+}
+
+.home-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.home-container p {
+    text-align: center;
+    color: #34495e;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.action-button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.action-button:hover {
+    background-color: #2980b9;
+}
+
+.action-button:active {
+    transform: scale(0.98);
+}
+
+.weekly-schedules {
+    margin-top: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.weekly-schedules h3 {
+    margin-top: 10px;
+    color: #2980b9;
+    font-size: 20px;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 6px;
+}
+
+.weekly-schedules ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.weekly-schedules li {
+    padding: 6px 0;
+    font-size: 16px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+}
+
+.weekly-schedules li::before {
+    content: '⏰';
+    margin-right: 8px;
+    font-size: 16px;
+    color: #2980b9;
+}
+
+.weekly-schedules li strong {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+@media (max-width: 600px) {
+    .home-container {
+        padding: 10px;
+    }
+
+    .action-button {
+        width: 100%;
+    }
+
+    .weekly-schedules {
+        padding: 15px;
+    }
+
+    .weekly-schedules li {
+        font-size: 14px;
+    }
+}
+
+.weekly-stats {
+    margin: 10px 0;
+    background-color: #f1faff;
+    padding: 15px 20px;
+    border-left: 4px solid #2980b9;
+    border-radius: 6px;
+    font-size: 1rem;
+    color: #333;
+}
+
+.weekly-stats p {
+    margin: 6px 0;
+}
+
+.company-inline {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.company-label {
+    font-weight: 500;
+    color: #7f8c8d;
+}
+
+.company-name {
+    font-weight: 600;
+    color: #3498db;
+}
+
+.admin-message-box {
+    background-color: #f9f9fc;
+    border: 1px solid #ccc;
+    border-left: 6px solid #2980b9;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 5px auto;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    text-align: center;
+}
+
+.admin-message-box h3 {
+    margin-top: 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.admin-message-textarea {
+    width: 90%;
+    padding: 6px 8px;
+    resize: vertical;
+    font-size: 14px;
+    min-height: 40px;
+    max-height: 80px;
+    line-height: 1.4;
+    overflow-y: auto;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    background-color: #fff;
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #2980b9;
+    direction: rtl;
+    text-align: right;
+}
+
+.admin-message-box .action-button {
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.admin-message-box p {
+    margin-bottom: 0px;
+}
+
+.next-shift {
+    background-color: #fff3cd;
+    box-shadow: inset 0 0 0 2px #ffc107;
+    border-radius: 6px;
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+}
+
+.today-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    font-size: 18px;
+    color: #444;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.today-date {
+    font-weight: bold;
+}
+
+.home-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 30px);
+}
+
+.home-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dcdcdc;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #2980b9;
+}
+
+.home-logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}
+
+.home-header h1 {
+    text-align: center;
+        color: #2980b9;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+}

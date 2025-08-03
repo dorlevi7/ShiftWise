@@ -1,0 +1,132 @@
+.navbar-placeholder {
+    height: 30px;
+}
+
+.notifications-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.notification-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.notification-item {
+    background: #ffffff;
+    border: 1px solid #dfe6e9;
+    border-left: 5px solid #2980b9;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 16px 20px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+    width: 89%;
+}
+
+.notification-item:hover {
+    background-color: #f7fbff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.notification-item.unread {
+    border-left-color: #2ecc71;
+    background-color: #f0fdf4;
+}
+
+.notification-item.read {
+    opacity: 0.85;
+}
+
+.notification-item .message {
+    font-size: 16px;
+    color: #2c3e50;
+    line-height: 1.5;
+}
+
+.notification-item .time {
+    font-size: 13px;
+    color: #95a5a6;
+    text-align: right;
+    margin-top: 4px;
+}
+
+.notification-item .notification-link a {
+    font-weight: 500;
+    color: #2980b9;
+    text-decoration: none;
+}
+
+.notification-item .notification-link a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.toggle-form-button {
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.toggle-form-button:hover {
+    background-color: #2980b9;
+}
+
+.notifications-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 30px);
+}
+
+.notifications-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dcdcdc;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #2980b9;
+}
+
+.notifications-header h1 {
+    text-align: center;
+    color: #2980b9;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    letter-spacing: 1px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.notifications-logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    margin-top: 10px;
+}

@@ -1,0 +1,90 @@
+.notification-modal h3 {
+    font-size: 22px;
+    color: #2980b9;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.notification-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.notification-form label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.notification-form textarea {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 3px solid #2980b9;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    resize: vertical;
+}
+
+.notification-form textarea:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 4px rgba(41, 128, 185, 0.3);
+}
+
+.select-all-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.employee-checkboxes {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding-left: 4px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.confirm-button,
+.cancel-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.confirm-button {
+    background-color: #2980b9;
+    color: white;
+}
+
+.confirm-button:hover {
+    background-color: #2980b9;
+}
+
+.cancel-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.cancel-button:hover {
+    background-color: #c0392b;
+}
+
+.employee-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding-left: 4px;
+}

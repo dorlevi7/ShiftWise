@@ -1,0 +1,221 @@
+.navbar-placeholder {
+    height: 30px;
+}
+
+.profile-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+}
+
+.profile-info p {
+    text-align: center;
+    color: #34495e;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.employee-photo-horizontal {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    transition: transform 0.3s ease;
+    border: 3px solid #2980b9;
+}
+
+.employee-photo-horizontal:hover {
+    transform: scale(1.05);
+}
+
+.profile-info button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin: 10px 10px 0;
+}
+
+.profile-info button:hover {
+    background-color: #2980b9;
+}
+
+.profile-info button:active {
+    transform: scale(0.98);
+}
+
+.modal {
+    max-width: 500px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    outline: none;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.2);
+}
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.addOrEdit-employee-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.addOrEdit-employee-form label {
+    margin-top: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #2c3e50;
+}
+
+.addOrEdit-employee-form input,
+.addOrEdit-employee-form select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 0px;
+}
+
+.addOrEdit-employee-form button {
+    margin-top: 5px;
+    padding: 10px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.addOrEdit-employee-form button:hover {
+    background-color: #1f6391;
+}
+
+.addOrEdit-employee-form .cancel-button {
+    background-color: #bdc3c7;
+}
+
+.addOrEdit-employee-form .cancel-button:hover {
+    background-color: #95a5a6;
+}
+
+.profile-buttons-vertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+.profile-buttons-vertical button {
+    width: 200px;
+}
+
+.profile-photo-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.profile-photo-wrapper img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.profile-photo-wrapper img:hover {
+    transform: scale(1.05);
+}
+
+.remove-photo-button {
+    padding: 6px 12px;
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.remove-photo-button:hover {
+    background-color: #c0392b;
+}
+
+.profile-card {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f7f9fc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+    font-size: 18px;
+    color: #333;
+}
+
+.profile-icon {
+    margin-right: 10px;
+    color: #2980b9;
+    font-size: 18px;
+    min-width: 24px;
+}
+
+.profile-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 30px);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #dcdcdc;
+    padding-bottom: 10px;
+}
+
+.profile-header h1 {
+    text-align: center;
+        color: #2980b9;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+}
+
+.profile-logo {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+}

@@ -1,0 +1,79 @@
+.addOrEdit-employee-form input[type="text"],
+.addOrEdit-employee-form input[type="email"],
+.addOrEdit-employee-form input[type="file"],
+.profile-container input[type="text"],
+.profile-container input[type="email"],
+.profile-container input[type="file"] {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 92%;
+    transition: border-color 0.3s ease;
+    border: 3px solid #2980b9;
+}
+
+.addOrEdit-employee-form input:focus,
+.profile-container input:focus {
+    outline: none;
+}
+
+.employee-photo-horizontal {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 8px;
+    border: 3px solid #2980b9 !important;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.employee-photo-horizontal:hover {
+    transform: scale(1.05);
+}
+
+.addOrEdit-employee-form select,
+.profile-container select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 100%;
+    transition: border-color 0.3s ease;
+    border: 3px solid #2980b9;
+}
+
+select:focus {
+    outline: none;
+} 
+
+.addOrEdit-employee-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    align-items: stretch;
+}
+
+.addOrEdit-employee-form button,
+.addOrEdit-employee-form select {
+    margin: 0px 0;
+    display: block;
+}
+
+.addOrEdit-employee-form select {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: 100%;
+    border: 3px solid #2980b9 !important;
+    background-color: white;
+    transition: border-color 0.3s ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.form-error {
+    color: red;
+    font-size: 0.85rem;
+    margin-top: 4px;
+    margin-bottom: 8px;
+    display: block;
+}

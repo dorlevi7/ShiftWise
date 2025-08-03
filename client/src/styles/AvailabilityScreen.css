@@ -1,0 +1,330 @@
+.navbar-placeholder {
+    height: 30px;
+}
+
+.availability-container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.week-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    max-width: 775px;
+}
+
+.week-range {
+    font-size: 16px;
+    font-weight: bold;
+    color: #34495e;
+    text-align: center;
+}
+
+.navigation-button {
+    padding: 10px 14px;
+    font-size: 14px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.navigation-button:hover {
+    background-color: #2980b9;
+}
+
+.employee-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 0px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.employee-selector label {
+    font-size: 14px;
+    color: #34495e;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.employee-selector select {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: 3px solid #2980b9;
+    border-radius: 6px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.employee-selector select:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.3);
+}
+
+.availability-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0px;
+    table-layout: fixed;
+}
+
+.availability-table th,
+.availability-table td {
+    border: 1px solid #ddd;
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.availability-table th {
+    background-color: #f7f9fa;
+    color: #34495e;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.availability-table th:hover {
+    background-color: #e6f2fa;
+}
+
+.availability-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.availability-table td input[type="checkbox"]:checked+label {
+    background-color: #d1ecf1;
+    border-radius: 4px;
+}
+
+.availability-table td input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.notes-textarea {
+    width: 97%;
+    height: 40px;
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    resize: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    border: 3px solid #2980b9;
+}
+
+.notes-textarea:focus {
+    border-color: #2980b9;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.3);
+}
+
+.submit-button {
+    padding: 10px 16px;
+    font-size: 14px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    width: 100%;
+}
+
+.submit-button:hover {
+    background-color: #2980b9;
+}
+
+.submit-button:active {
+    transform: scale(0.98);
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.clickable {
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.clickable:hover {
+    background-color: #dfeeff;
+}
+
+.selected-employee-photo {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.employee-photo-preview {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    border: 3px solid #2980b9;
+}
+
+.employee-photo-preview:hover {
+    transform: scale(1.1);
+    cursor: zoom-in;
+}
+
+.employee-dropdown .react-select__control {
+    padding: 4px 8px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-shadow: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    min-width: 200px;
+}
+
+.employee-dropdown .react-select__control--is-focused {
+    border-color: #2980b9;
+    box-shadow: 0 0 4px rgba(52, 152, 219, 0.3);
+}
+
+.employee-dropdown .react-select__single-value {
+    color: #34495e;
+    font-weight: normal;
+}
+
+.employee-dropdown .react-select__menu {
+    z-index: 100;
+}
+
+.direction-toggle {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #34495e;
+}
+
+.direction-toggle select {
+    padding: 6px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.modal {
+    background: white;
+    padding: 20px;
+    max-width: 500px;
+    margin: auto;
+    border-radius: 10px;
+    outline: none;
+}
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.datepicker {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.cancel-button {
+    background-color: #ccc;
+    margin-left: 10px;
+}
+
+.employee-selector .react-select__control {
+    border: 3px solid #2980b9;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.employee-dropdown .react-select__control {
+    border: 3px solid #2980b9;
+    border-radius: 6px;
+    box-shadow: none;
+}
+
+.employee-dropdown .react-select__control--is-focused {
+    border-color: #2980b9;
+    box-shadow: 0 0 0 1px #2980b9;
+}
+
+.direction-toggle label {
+    font-weight: bold;
+    color: #2c3e50;
+    font-size: 14px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.dropdown-container label {
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.availability-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 30px);
+}
+
+.availability-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #dcdcdc;
+    padding-bottom: 10px;
+    width: 100%;
+    color: #2980b9;
+}
+
+.availability-header h1 {
+    text-align: center;
+        color: #2980b9;
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 0px;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        letter-spacing: 1px;
+        font-family: 'Poppins', sans-serif;
+}
+
+.availability-logo {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
