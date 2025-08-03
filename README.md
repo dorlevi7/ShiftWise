@@ -27,9 +27,6 @@ node server.js
 
 ## 🔍 Key Code Sections
 
-🔹 [schedulerService.js](https://github.com/dorlevi7/ShiftWise/blob/main/server/services/schedulerService.js)  
-Implements the logic for assigning employees to shifts based on weekly availability and business rules. Ensures that each employee is assigned to at most one shift per day and that the number of assigned employees per shift matches the required capacity. Supports both manual and semi-automatic scheduling by the admin.
-
 🔹 [availabilityService.js](https://github.com/dorlevi7/ShiftWise/blob/main/server/services/availabilityService.js)  
 Handles the saving and loading of weekly availability. Supports both employee-side input and admin-side filling on behalf of employees. Manages status updates (default, selected, disabled) with logic that reflects rules such as one shift per day, night-to-morning conflicts, and capacity limits.
 
