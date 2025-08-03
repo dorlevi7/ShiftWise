@@ -27,6 +27,9 @@ node server.js
 
 ## 🔍 Key Code Sections
 
+🔹 [AvailabilityScreen.js](https://github.com/dorlevi7/ShiftWise/blob/main/client/src/components/AvailabilityScreen.js)  
+Enables employees to submit their weekly availability and add personal notes. Admins can fill availability on behalf of employees. The screen enforces business rules such as one shift per day, night-to-morning conflicts, and capacity limits. Includes automatic saving, a vacation request modal, and visual feedback for status changes.
+
 🔹 [availabilityService.js](https://github.com/dorlevi7/ShiftWise/blob/main/server/services/availabilityService.js)  
 Handles the saving and loading of weekly availability. Supports both employee-side input and admin-side filling on behalf of employees. Manages status updates (default, selected, disabled) with logic that reflects rules such as one shift per day, night-to-morning conflicts, and capacity limits.
 
