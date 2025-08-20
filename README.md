@@ -7,6 +7,12 @@ The system includes employee management, availability input, vacation requests, 
 
 ## 🛠️ Installation Instructions
 
+### ⚠️ Important Note – Firebase API Key
+
+The Firebase API key included in this repository is not valid and will not allow the app to run properly.  
+To run the project locally, please contact me to receive the correct configuration snippet with the updated and working Firebase API key.
+
+
 ### Client
 
 ```bash
